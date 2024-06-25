@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use('/movies', movieRoutes);
 
-mongoose.connect('mongodb+srv://root:1234@guinanews.lftlup9.mongodb.net/?retryWrites=true&w=majority&appName=GuinaNews', {
+mongoose.connect('<sua string de conexao>', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {

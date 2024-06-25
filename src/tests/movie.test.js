@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const Movie = require('../models/Movie');
 
 beforeAll(async () => {
-    await mongoose.connect('mongodb+srv://root:1234@guinanews.lftlup9.mongodb.net/?retryWrites=true&w=majority&appName=GuinaNews', {
+    await mongoose.connect('<sua string de conexão>', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     });
