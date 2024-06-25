@@ -28,7 +28,8 @@ Este é um projeto de API para gerenciar um catálogo de filmes, utilizando Node
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/root/movie-catalog.git
+   git clone https://github.com/AguinaldoBorges/mongodb-api-criar-usuario.git
+
    cd movie-catalog
    ```
 
@@ -39,7 +40,7 @@ Este é um projeto de API para gerenciar um catálogo de filmes, utilizando Node
 
 3. Configure a conexão com o MongoDB Atlas no arquivo `src/app.js`:
    ```javascript
-   mongoose.connect('mongodb+srv://root:1234@guinanews.lftlup9.mongodb.net/?retryWrites=true&w=majority&appName=GuinaNews', {
+   mongoose.connect('mongodb+srv://<usuario>:<senha>@guinanews.lftlup9.mongodb.net/?retryWrites=true&w=majority&appName=GuinaNews', {
        useNewUrlParser: true,
        useUnifiedTopology: true,
    }).then(() => {
